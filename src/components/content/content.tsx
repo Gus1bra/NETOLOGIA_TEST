@@ -14,12 +14,12 @@ export const Content = ({ child }: IContentProps) => {
       <div className="content-left flex-column">
         <div className="content-title fw600">
           Изучайте{" "}
-          <Link className="title-link" to="/">
+          <Link className="title-link" to="/NETOLOGIA_TEST//">
             актуальные темы
           </Link>
         </div>
         {content.map((el: IContentArrayEl) => (
-          <Link className="content-el" to={el.direction.link}>
+          <Link className="content-el" to={`/NETOLOGIA_TEST/${el.direction.link}`}>
             <div className="content-el-left flex-column">
               <div className="content-el-title fw600">{el.direction.title}</div>
               <div className="content-el-size fw600">

@@ -23,10 +23,10 @@ export const App = () => {
     <div className="App">
       {showContent && (
         <Routes>
-          <Route path="/" element={<Content />} />
+          <Route path="/NETOLOGIA_TEST/" element={<Content />} />
           {content.map((el: IContentArrayEl) => (
             <Route
-              path={el.direction.link}
+              path={`/NETOLOGIA_TEST/${el.direction.link}`}
               element={
                 <Content
                   child={
