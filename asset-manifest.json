@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NETOLOGIA_TEST/static/css/main.6f1c8842.css",
-    "main.js": "/NETOLOGIA_TEST/static/js/main.fb7f8c55.js",
+    "main.js": "/NETOLOGIA_TEST/static/js/main.3e43559e.js",
     "index.html": "/NETOLOGIA_TEST/index.html",
     "main.6f1c8842.css.map": "/NETOLOGIA_TEST/static/css/main.6f1c8842.css.map",
-    "main.fb7f8c55.js.map": "/NETOLOGIA_TEST/static/js/main.fb7f8c55.js.map"
+    "main.3e43559e.js.map": "/NETOLOGIA_TEST/static/js/main.3e43559e.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1c8842.css",
-    "static/js/main.fb7f8c55.js"
+    "static/js/main.3e43559e.js"
   ]
 }
