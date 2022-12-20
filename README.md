@@ -1,4 +1,1 @@
-# NETOLOGIA_TEST
-
-npm i
-npm start
+https://gus1bra.github.io/NETOLOGIA_TEST/
