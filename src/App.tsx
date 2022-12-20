@@ -26,7 +26,7 @@ export const App = () => {
           <Route path="/NETOLOGIA_TEST/" element={<Content />} />
           {content.map((el: IContentArrayEl) => (
             <Route
-              path={`/NETOLOGIA_TEST/${el.direction.link}`}
+              path={`/NETOLOGIA_TEST${el.direction.link}`}
               element={
                 <Content
                   child={
